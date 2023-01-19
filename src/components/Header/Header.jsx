@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Link } from "@chakra-ui/react";
+import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
 
 export const Header = () => {
@@ -13,12 +13,9 @@ export const Header = () => {
         justifyContent="space-between"
       >
         <Flex>
-          <Box
-            border={"1px solid red"}
-            display="inline-block"
-            lineHeight="1em"
-            flexShrink={0}
-          ></Box>
+          <Box>
+            <Text>Header</Text>
+          </Box>
         </Flex>
 
         <Box
