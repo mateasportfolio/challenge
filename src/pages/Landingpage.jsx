@@ -8,8 +8,8 @@ function Landingpage() {
   return (
     <>
       <Header />
-      <Footer />
       <Slider />
+      <Footer />
     </>
   );
 }
