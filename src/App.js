@@ -1,9 +1,10 @@
-import "./App.css";
+import React from "react";
+import Landingpage from "./pages/Landingpage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Frontend Developer Code Challenge</h1>
+      <Landingpage />
     </div>
   );
 }
