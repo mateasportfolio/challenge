@@ -1,0 +1,9 @@
+.gradient__bg {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 25% 20%,
+    rgba(0, 0, 255, 1) 0%,
+    rgba(109, 63, 181, 1) 47%,
+    rgba(238, 130, 238, 1) 86%
+  );
+}
