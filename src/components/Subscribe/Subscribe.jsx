@@ -24,6 +24,7 @@ const Subscribe = () => {
           textAlign="center"
           fontSize="3xl"
           alignContent="center"
+          color={"teal.400"}
         >
           Newsletter Subscription
         </FormLabel>

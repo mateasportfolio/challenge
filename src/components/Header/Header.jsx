@@ -13,7 +13,7 @@ export const Header = () => {
       >
         <Flex>
           <Box>
-            <Text>Header</Text>
+            <Text color={"teal.400"}>Header</Text>
           </Box>
         </Flex>
 
@@ -38,6 +38,7 @@ export const Header = () => {
               fontSize="md"
               fontFamily="Roboto"
               href="/blog"
+              color={"teal.400"}
             >
               Newsletter
             </Link>

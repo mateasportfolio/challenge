@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Flex, Text, Image } from "@chakra-ui/react";
-import cover from "../../assets/cover.jpeg";
 import melodie from "../../assets/melodie.png";
 
 const TextC = () => {
@@ -75,28 +74,63 @@ const TextC = () => {
             flexWrap="nowrap"
             display="flex"
             alignItems="center"
-            border="1px solid yellow"
           >
-            <Text display={"flex"} flexDirection={"column"}>
+            <Text
+              display={"flex"}
+              flexDirection={"column"}
+              w="200px"
+              color="blue.500"
+              border="1px solid teal"
+            >
               Was ist hier los?
             </Text>
 
-            <Text display={"flex"} flexDirection={"column"}>
+            <Text
+              display={"flex"}
+              flexDirection={"column"}
+              w="200px"
+              color="blue.500"
+              border="1px solid teal"
+            >
               Besser
             </Text>
-            <Text display={"flex"} flexDirection={"column"}>
+            <Text
+              display={"flex"}
+              flexDirection={"column"}
+              w="200px"
+              color="blue.500"
+              border="1px solid teal"
+            >
               {" "}
               Sturmfahrt
             </Text>
-            <Text display={"flex"} flexDirection={"column"}>
+            <Text
+              display={"flex"}
+              flexDirection={"column"}
+              w="200px"
+              color="blue.500"
+              border="1px solid teal"
+            >
               {" "}
               In einem Boot
             </Text>
-            <Text display={"flex"} flexDirection={"column"}>
+            <Text
+              display={"flex"}
+              flexDirection={"column"}
+              w="200px"
+              color="blue.500"
+              border="1px solid teal"
+            >
               {" "}
               Automat
             </Text>
-            <Text display={"flex"} flexDirection={"column"}>
+            <Text
+              display={"flex"}
+              flexDirection={"column"}
+              w="200px"
+              color="blue.500"
+              border="1px solid teal"
+            >
               {" "}
               Eisbär (Grauzone-Cover)
             </Text>
@@ -126,7 +160,7 @@ const TextC = () => {
             borderRadius="10px"
           />
         </Flex>
-        <Flex border="1px solid red" flexDirection="column" cursor="pointer">
+        <Flex border="1px solid pink" flexDirection="column" cursor="pointer">
           <Text
             marginBottom="10px"
             alignItems="center"
