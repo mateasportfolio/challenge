@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
-import Landingpage from "./pages/Landingpage";
+import { Header } from "./components/Header/Header.jsx";
+import { Footer } from "./components/Footer/Footer.jsx";
+import { ImageSlider } from "./components/Slider/ImageSlider";
 
 function App() {
   return (
     <>
-      <div>
-        <Landingpage />
-      </div>
+      <Header />
+      <ImageSlider />
+      <Footer />
     </>
   );
 }
