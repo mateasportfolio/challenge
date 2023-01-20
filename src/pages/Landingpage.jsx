@@ -1,13 +1,14 @@
 import React from "react";
-import { Footer } from "../components/Footer/Footer";
+// import { Flex } from "@chakra-ui/react";
 import { Header } from "../components/Header/Header";
-import { Slider } from "../components/Slider/Slider";
+import { Footer } from "../components/Footer/Footer";
+import { ImageSlider } from "../components/Slider/ImageSlider";
 
 function Landingpage() {
   return (
     <>
       <Header />
-      <Slider />
+      <ImageSlider />
       <Footer />
     </>
   );

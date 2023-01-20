@@ -6,12 +6,13 @@ export const Header = () => {
   return (
     <>
       <Flex
-        bgGradient={[
-          "linear(to-tr, teal.300, yellow.700)",
-          "linear(to-t, blue.800, purple.500)",
-          "linear(to-b, pink.100, purple.300)",
-        ]}
-        border={"1px solid white"}
+        // bgGradient={[
+        //   "linear(to-tr, teal.300, yellow.700)",
+        //   "linear(to-t, blue.800, purple.500)",
+        //   "linear(to-b, pink.100, purple.300)",
+        // ]}
+        bg="blue.200"
+        border={"1px solid red"}
         p="15px"
         w="100%"
         justifyContent="space-between"
