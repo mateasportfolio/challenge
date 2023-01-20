@@ -62,6 +62,18 @@ html {
   display: inline-block;
 }
 
+.background-red {
+  background-color: red;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.delete-button {
+  padding: 20px;
+  color: #b000b3;
+}
 /* html {
   font-size: min(max(var(--minFontSize), var(--scaler)), var(--maxFontSize));
   background-color: #b000b3;

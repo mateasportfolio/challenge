@@ -3,6 +3,14 @@ import { Box, Flex, Image } from "@chakra-ui/react";
 import melodie from "../../assets/melodie.png";
 
 const TextC = () => {
+  let i = alert("Frontend Coding Challenge");
+  if (i < 5) prompt("Try it out!");
+  else {
+    prompt("Try it out :D");
+  }
+  i++;
+  console.log(i);
+
   return (
     <>
       <Flex

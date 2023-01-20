@@ -12,12 +12,12 @@ export const Header = () => {
         w="100%"
         justifyContent="space-between"
       >
+        {" "}
         <Flex>
           <Box>
             <Text color={"teal.400"}>Header</Text>
           </Box>
         </Flex>
-
         <Box
           flexDirection="row"
           display="flex"
