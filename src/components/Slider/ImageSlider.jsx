@@ -5,15 +5,15 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@chakra-ui/icons";
 
 export const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
-  // const lenght = slides.lenght;
+  const length = slides.lenght;
 
-  // const nextSlide = () => {
-  //   setCurrent(current === length - 1 ? 0 : current + 1);
-  // };
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
 
-  // const prevSlide = () => {
-  //   setCurrent(current === 0 ? length - 1 : current - 1);
-  // };
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
 
   console.log(current);
   if (!Array.isArray(slides) || slides.length <= 0) {
@@ -22,8 +22,8 @@ export const ImageSlider = ({ slides }) => {
 
   return (
     <section className="slider">
-      <ArrowLeftIcon className="left-arrow" />
-      <ArrowRightIcon className="right-arrow" />
+      <ArrowLeftIcon className="left-arrow" onClick={prevSlide} />
+      <ArrowRightIcon className="right-arrow" onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
           <div
