@@ -6,15 +6,15 @@ import { ImageSlider } from "./components/Slider/ImageSlider";
 import { SliderData } from "./components/Slider/SliderData";
 import Subscribe from "./components/Subscribe/Subscribe";
 import TextC from "./components/TextC/TextC";
-import Konami from "./components/Konami/Konami.jsx";
+import { KonamiCode } from "./components/Konami/KonamiCode";
 
 function App() {
   return (
     <>
       <Header />
       <ImageSlider slides={SliderData} />
-      <Konami />
       <Subscribe />
+      {/* <KonamiCode /> */}
       <TextC />
       <Footer />
     </>
