@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer/Footer.jsx";
 import { ImageSlider } from "./components/Slider/ImageSlider";
 import { SliderData } from "./components/Slider/SliderData";
 import Subscribe from "./components/Subscribe/Subscribe";
+import TextC from "./components/TextC/TextC";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <ImageSlider slides={SliderData} />
       <Subscribe />
+      <TextC />
       <Footer />
     </>
   );

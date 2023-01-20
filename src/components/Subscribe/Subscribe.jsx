@@ -20,8 +20,8 @@ const Subscribe = () => {
     <Flex w="100%" h="200px">
       <FormControl isInvalid={isError}>
         <FormLabel
-          alignItems="center"
-          justifyContent="center"
+          direction="row"
+          textAlign="center"
           fontSize="3xl"
           alignContent="center"
         >
@@ -31,7 +31,8 @@ const Subscribe = () => {
           type="email"
           value={input}
           onChange={handleInputChange}
-          bgColor="pink"
+          direction="row"
+          align="center"
         />
         {!isError ? (
           <FormHelperText>
