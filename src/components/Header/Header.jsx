@@ -6,6 +6,7 @@ export const Header = () => {
   return (
     <>
       <Flex
+        maxW="1200px"
         border={"1px solid red"}
         p="15px"
         w="100%"

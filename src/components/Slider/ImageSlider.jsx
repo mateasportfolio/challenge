@@ -31,7 +31,12 @@ export const ImageSlider = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt="cover" className="image" />
+              <img
+                src={slide.image}
+                alt="cover"
+                className="image"
+                maxW="1200px"
+              />
             )}
           </div>
         );

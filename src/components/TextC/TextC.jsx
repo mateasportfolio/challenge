@@ -6,14 +6,17 @@ const TextC = () => {
   return (
     <>
       <Flex
+        maxW="1200px"
         border={"1px solid red"}
-        p={200}
-        m={150}
+        p="20"
+        m="10px"
         gap="40px"
         alignItems="center"
         justifyContent="center"
       >
         <Box
+          m="10px"
+          maxW="1200px"
           overflow="hidden"
           flexDirection="row"
           gap="40px"
@@ -42,6 +45,7 @@ const TextC = () => {
           <p> Eisbär (Grauzone-Cover)</p>
         </Box>
         <Box
+          maxW="1200px"
           flexDirection="row"
           gap="40px"
           alignItems="center"
@@ -61,6 +65,7 @@ const TextC = () => {
           Image
         </Box>
         <Box
+          maxW="1200px"
           flexDirection="row"
           gap="40px"
           alignItems="center"

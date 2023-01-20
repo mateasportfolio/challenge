@@ -17,7 +17,7 @@ const Subscribe = () => {
   const isError = input === "";
 
   return (
-    <Flex w="100%" h="200px">
+    <Flex w="100%" h="200px" p="150px">
       <FormControl isInvalid={isError}>
         <FormLabel
           direction="row"

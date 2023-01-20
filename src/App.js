@@ -11,11 +11,11 @@ import { KonamiCode } from "./components/Konami/KonamiCode";
 function App() {
   return (
     <>
-      <Header />
-      <ImageSlider slides={SliderData} />
-      <Subscribe />
+      <Header maxW="1200px" />
+      <ImageSlider slides={SliderData} maxW="1200px" />
+      <Subscribe maxW="1200px" />
       {/* <KonamiCode /> */}
-      <TextC />
+      <TextC maxW="1200px" />
       <Footer />
     </>
   );
