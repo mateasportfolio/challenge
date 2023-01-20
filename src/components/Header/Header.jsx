@@ -1,13 +1,11 @@
 import React from "react";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
-import Subscribe from "../Subscribe/Subscribe";
 
 export const Header = () => {
   return (
     <>
       <Flex
-        bg="purple.600"
         border={"1px solid red"}
         p="15px"
         w="100%"
@@ -32,7 +30,7 @@ export const Header = () => {
             p="5px 15px"
             m="0px 8px"
           >
-            {/* <Link
+            <Link
               flex-direction="column"
               borderStyle="solid"
               variant="outline"
@@ -42,8 +40,7 @@ export const Header = () => {
               href="/blog"
             >
               Newsletter
-            </Link> */}
-            <Subscribe />
+            </Link>
           </Button>
         </Box>
       </Flex>
