@@ -11,7 +11,7 @@ export const Header = () => {
         //   "linear(to-t, blue.800, purple.500)",
         //   "linear(to-b, pink.100, purple.300)",
         // ]}
-        bg="blue.200"
+        bg="purple.600"
         border={"1px solid red"}
         p="15px"
         w="100%"

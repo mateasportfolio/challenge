@@ -1,27 +1,42 @@
 import React from "react";
 import { useState } from "react";
 import { SliderData } from "./SliderData";
-// import { Box } from "@chakra-ui/react";
+import { ArrowLeftIcon, ArrowRightIcon } from "@chakra-ui/icons";
 
-export const ImageSlider = () => {
+export const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   // const lenght = slides.lenght;
+
+  // const nextSlide = () => {
+  //   setCurrent(current === length - 1 ? 0 : current + 1);
+  // };
+
+  // const prevSlide = () => {
+  //   setCurrent(current === 0 ? length - 1 : current - 1);
+  // };
+
+  console.log(current);
+  if (!Array.isArray(slides) || slides.length <= 0) {
+    return null;
+  }
+
   return (
-    // <Box
-    //   border={"1px solid red"}
-    //   display="inline-block"
-    //   lineHeight="1em"
-    //   flexShrink={0}
-    //   w="150vh"
-    //   h="100vh"
-    // >
-    //   Image
-    // </Box>
-    <>
+    <section className="slider">
+      <ArrowLeftIcon className="left-arrow" />
+      <ArrowRightIcon className="right-arrow" />
       {SliderData.map((slide, index) => {
-        return <img src={slide.image} alt="cover" />;
+        return (
+          <div
+            className={index === current ? "slide active" : "slide"}
+            key={index}
+          >
+            {index === current && (
+              <img src={slide.image} alt="cover" className="image" />
+            )}
+          </div>
+        );
       })}
-    </>
+    </section>
   );
 };
 
